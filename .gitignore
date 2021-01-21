@@ -1,6 +1,6 @@
-/jyut6ping3.dict.yaml
-/jyut6ping3.simple.dict.yaml
 /background_scripts/dictionary.json.txt
-/preprocess.py
+/content_scripts/FiraXdi8Variable-subset.woff2
+/popup/FiraXdi8Variable-subset.woff2
+/data.py
 /lib/browser-polyfill.js
-/inject-jyutping.zip
+/inject-xdi8.zip

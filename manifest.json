@@ -21,6 +21,7 @@
         "scripts": ["lib/browser-polyfill.js", "lib/MessageManager.js", "lib/Trie.js", "background_scripts/main.js"],
         "persistent": true
     },
+    "web_accessible_resources": ["content_scripts/FiraXdi8Variable-subset.woff2", "popup/FiraXdi8Variable-subset.woff2"],
     "permissions": ["contextMenus", "storage"],
     "default_locale": "en",
     "browser_action": {

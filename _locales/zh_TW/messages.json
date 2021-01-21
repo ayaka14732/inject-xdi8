@@ -3,16 +3,16 @@
         "message": "zh-TW"
     },
     "extensionName": {
-        "message": "注入粵拼"
+        "message": "注入希頂語"
     },
     "extensionDescription": {
-        "message": "為漢字標註粵語發音（粵拼）。"
+        "message": "為漢字標註希頂語。"
     },
     "contextMenuItemDoInjectJyutping": {
-        "message": "注入粵拼"
+        "message": "注入希頂語"
     },
     "popupCheckboxText": {
-        "message": "<ruby class=\"inject-jyutping\">自<rp>(</rp><rt lang=\"yue-Latn\">zi6</rt><rp>)</rp></ruby><ruby class=\"inject-jyutping\">動<rp>(</rp><rt lang=\"yue-Latn\">dung6</rt><rp>)</rp></ruby><ruby class=\"inject-jyutping\">注<rp>(</rp><rt lang=\"yue-Latn\">zyu3</rt><rp>)</rp></ruby><ruby class=\"inject-jyutping\">入<rp>(</rp><rt lang=\"yue-Latn\">jap6</rt><rp>)</rp></ruby>"
+        "message": "自動注入（<span class=\"inject-xdi8\" lang=\"art-x-xd\">t17i3 EkarAH</span>）"
     },
     "refreshPromptText": {
         "message": "請刷新頁面使更改生效。"

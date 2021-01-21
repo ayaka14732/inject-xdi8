@@ -1,7 +1,17 @@
-ruby.inject-jyutping > rt {
+@font-face {
+    font-family: 'Fira Xdi8 Variable Local';
+    src: url('./FiraXdi8Variable-subset.woff2') format('woff2-variations');
+    font-weight: 100 900;
+}
+
+ruby.inject-xdi8 > rt {
     font-size: 0.74em;
     font-variant: initial;
     margin-left: 0.1em;
     margin-right: 0.1em;
     text-transform: initial;
+}
+
+ruby.inject-xdi8 :lang(art-x-xd) {
+    font-family: 'Fira Xdi8 Variable Local', sans-serif;
 }

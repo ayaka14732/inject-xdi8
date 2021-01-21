@@ -44,13 +44,13 @@ browser.runtime.onConnect.addListener(port => {
 /* Context Menu */
 
 browser.contextMenus.onClicked.addListener(function(info, tab) {
-    if (info.menuItemId === 'do-inject-jyutping') {
-        browser.tabs.sendMessage(tab.id, {name: 'do-inject-jyutping'});
+    if (info.menuItemId === 'do-inject-xdi8') {
+        browser.tabs.sendMessage(tab.id, {name: 'do-inject-xdi8'});
     }
 });
 
 browser.contextMenus.create({
-    id: 'do-inject-jyutping',
+    id: 'do-inject-xdi8',
     title: browser.i18n.getMessage('contextMenuItemDoInjectJyutping'),
     contexts: ['page']
 });

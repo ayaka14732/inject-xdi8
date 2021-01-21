@@ -1,22 +1,22 @@
-<h1>Inject Jyutping <ruby>幫<rt>bong1</rt></ruby> <ruby>漢<rt>hon3</rt></ruby> <ruby>字<rt>zi6</rt></ruby> <ruby>標<rt>biu1</rt></ruby> <ruby>粵<rt>jyut6</rt></ruby> <ruby>拼<rt>ping3</rt></ruby></h1>
+# Inject Jyutping <ruby>帮<rt>lbT</rt></ruby> <ruby>汉<rt>fEE</rt></ruby> <ruby>字<rt>fHL</rt></ruby> <ruby>标<rt>biLc</rt></ruby> <ruby>希<rt>xE</rt></ruby> <ruby>顶<rt>rdi8</rt></ruby> <ruby>语<rt>7Vi</rt></ruby>
 
-呢個係一個可以幫網頁上面嘅漢字自動標註粵拼嘅 Chrome 同 Firefox 插件，係學習粵拼同粵語嘅強大工具。
+这是一个可以帮网页上面的汉字自动标注希顶语的 Chrome 和 Firefox 插件，是学习希顶语的强大工具。
 
-A browser extension for Mozilla Firefox and Google Chrome to add Cantonese pronunciation (Jyutping) on Chinese characters, a powerful tool for learning Cantonese and Jyutping.
+A browser extension for Mozilla Firefox and Google Chrome to add Xdi8 on Chinese characters, a powerful tool for learning the Xdi8 language.
 
-項目靈感來自 [EYHN/Furigana](https://github.com/EYHN/Furigana)。
+项目灵感來自 [CanCLID/inject-jyutping](https://github.com/CanCLID/inject-jyutping)，而该项目的灵感来自 [EYHN/Furigana](https://github.com/EYHN/Furigana)。
 
-This project is inspired by [EYHN/Furigana](https://github.com/EYHN/Furigana).
+This project is inspired by [CanCLID/inject-jyutping](https://github.com/CanCLID/inject-jyutping), which is inspired by [EYHN/Furigana](https://github.com/EYHN/Furigana).
 
-<h2>Install <ruby>安<rt>on1</rt></ruby> <ruby>裝<rt>zong1</rt></ruby> </h2>
+## Install <ruby>安<rt>Ni2</rt></ruby> <ruby>装<rt>zuTu</rt></ruby>
 
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/inject-jyutping/lfgpgjkjglogbndlkikjgbbfoiofbdjp)
-- [Firefox Browser Add-On](https://addons.mozilla.org/en-US/firefox/addon/inject-jyutping/)
+- [Chrome Web Store](https://chrome.google.com/webstore/detail/inject-xdi8/lfgpgjkjglogbndlkikjgbbfoiofbdjp)
+- [Firefox Browser Add-On](https://addons.mozilla.org/en-US/firefox/addon/inject-xdi8/)
 
-<h2>Build <ruby>編<rt>pin1</rt></ruby> <ruby>譯<rt>jik6</rt></ruby> </h2>
+## Build <ruby>编<rt>abi2</rt></ruby> <ruby>译<rt>5iYi</rt></ruby>
 
 See [`.github/workflows/build.yml`](.github/workflows/build.yml).
 
-<h2>Screenshot <ruby>截<rt>zit6</rt></ruby> <ruby>圖<rt>tou4</rt></ruby> </h2>
+## Screenshot <ruby>截<rt>quel</rt></ruby> <ruby>图<rt>mdi3</rt></ruby>
 
-![](./demo.jpg)
+![](./demo.png)

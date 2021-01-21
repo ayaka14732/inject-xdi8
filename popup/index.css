@@ -1,13 +1,15 @@
-.middle {
-    vertical-align: middle;
+@font-face {
+    font-family: 'Fira Xdi8 Variable Local';
+    src: url('./FiraXdi8Variable-subset.woff2') format('woff2-variations');
+    font-weight: 100 900;
 }
 
-ruby.inject-jyutping > rt {
-    font-size: 0.74em;
-    font-variant: initial;
-    margin-left: 0.1em;
-    margin-right: 0.1em;
-    text-transform: initial;
+.inject-xdi8:lang(art-x-xd) {
+    font-family: 'Fira Xdi8 Variable Local', sans-serif;
+}
+
+.middle {
+    vertical-align: middle;
 }
 
 #refreshPromptText {

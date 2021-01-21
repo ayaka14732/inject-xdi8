@@ -3,16 +3,16 @@
         "message": "en"
     },
     "extensionName": {
-        "message": "Inject Jyutping"
+        "message": "Inject Xdi8"
     },
     "extensionDescription": {
-        "message": "Add Cantonese pronunciation (Jyutping) on Chinese characters."
+        "message": "Add Xdi8 on Chinese characters."
     },
     "contextMenuItemDoInjectJyutping": {
-        "message": "Inject Jyutping"
+        "message": "Inject Xdi8"
     },
     "popupCheckboxText": {
-        "message": "Inject automatically（<ruby class=\"inject-jyutping\">自<rp>(</rp><rt lang=\"yue-Latn\">zi6</rt><rp>)</rp></ruby><ruby class=\"inject-jyutping\">動<rp>(</rp><rt lang=\"yue-Latn\">dung6</rt><rp>)</rp></ruby><ruby class=\"inject-jyutping\">注<rp>(</rp><rt lang=\"yue-Latn\">zyu3</rt><rp>)</rp></ruby><ruby class=\"inject-jyutping\">入<rp>(</rp><rt lang=\"yue-Latn\">jap6</rt><rp>)</rp></ruby>）"
+        "message": "Inject automatically (<span class=\"inject-xdi8\" lang=\"art-x-xd\">t17i3 EkarAH</span>)"
     },
     "refreshPromptText": {
         "message": "Please refresh the page for the change to take effect."

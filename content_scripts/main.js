@@ -10,16 +10,14 @@ function hasHanChar(s) {
 }
 
 /**
- * Determine whether an HTML element should be handled by inject-jyutping
+ * Determine whether an HTML element should be handled by inject-xdi8
  * by checking its lang tag.
  * @param {String} lang The lang tag of an HTML element
  * @return {Boolean} If the lang tag is reasonable to be handled, returns
  * true. Otherwise returns false.
  */
 function isTargetLang(lang) {
-    return !lang.startsWith('ja')
-        && !lang.startsWith('ko')
-        && !lang.startsWith('vi');
+    return true;  // all lang tags are expected to be injected
 }
 
 /**
@@ -30,7 +28,7 @@ function isTargetLang(lang) {
  */
 function makeRuby(ch, pronunciation) {
     const ruby = document.createElement('ruby');
-    ruby.classList.add('inject-jyutping');
+    ruby.classList.add('inject-xdi8');
     ruby.innerText = ch;
 
     const rp_left = document.createElement('rp');
@@ -38,7 +36,7 @@ function makeRuby(ch, pronunciation) {
     ruby.appendChild(rp_left);
 
     const rt = document.createElement('rt');
-    rt.lang = 'yue-Latn';
+    rt.lang = 'art-x-xd';
     rt.innerText = pronunciation;
     ruby.appendChild(rt);
 
@@ -92,7 +90,7 @@ async function init() {
 }
 
 browser.runtime.onMessage.addListener(msg => {
-    if (msg.name === 'do-inject-jyutping') {
+    if (msg.name === 'do-inject-xdi8') {
         init();
     }
 });
