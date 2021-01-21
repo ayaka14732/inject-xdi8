@@ -51,6 +51,6 @@ browser.contextMenus.onClicked.addListener(function(info, tab) {
 
 browser.contextMenus.create({
     id: 'do-inject-xdi8',
-    title: browser.i18n.getMessage('contextMenuItemDoInjectJyutping'),
+    title: browser.i18n.getMessage('contextMenuItemDoInjectXdi8'),
     contexts: ['page']
 });

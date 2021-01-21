@@ -8,7 +8,7 @@
     "extensionDescription": {
         "message": "Add Xdi8 on Chinese characters."
     },
-    "contextMenuItemDoInjectJyutping": {
+    "contextMenuItemDoInjectXdi8": {
         "message": "Inject Xdi8"
     },
     "popupCheckboxText": {

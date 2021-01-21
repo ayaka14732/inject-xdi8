@@ -8,7 +8,7 @@
     "extensionDescription": {
         "message": "漢字に希頂語を付ける。"
     },
-    "contextMenuItemDoInjectJyutping": {
+    "contextMenuItemDoInjectXdi8": {
         "message": "希頂語を注入"
     },
     "popupCheckboxText": {
