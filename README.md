@@ -2,7 +2,7 @@
 
 这是一个可以帮网页上面的汉字自动标注希顶语的 Chrome 和 Firefox 插件，是学习希顶语的强大工具。
 
-A browser extension for Mozilla Firefox and Google Chrome to add Xdi8 on Chinese characters, a powerful tool for learning the Xdi8 language.
+A browser extension for Mozilla Firefox and Google Chrome that adds Xdi8 on Chinese characters, a powerful tool for learning the Xdi8 language.
 
 项目灵感来自 [CanCLID/inject-jyutping](https://github.com/CanCLID/inject-jyutping)，而该项目的灵感来自 [EYHN/Furigana](https://github.com/EYHN/Furigana)。
 
